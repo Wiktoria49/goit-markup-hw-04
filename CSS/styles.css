@@ -235,6 +235,8 @@ img {display: block;
   line-height: 1.367;
   letter-spacing: 0.06em;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-hero {
@@ -659,7 +661,13 @@ overflow: hidden;
 .footer-social-links-list-item:focus {
   background-color: var(--secondary-color);
 }
-
+.callto-footer-tel:hover,
+.callto-footer-tel:focus,
+.mailto-footer-mail:hover,
+.mailto-footer-mail:focus {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
 .footer-social-links-icon {
   max-width: 20px;
   max-height: 20px;
